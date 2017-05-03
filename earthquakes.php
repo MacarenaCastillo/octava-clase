@@ -34,7 +34,7 @@
     <p>En el último mes, el <a href="https://earthquake.usgs.gov/" target="_blank" rel="nofollow">Eartquake Hazards Program</a> de la <a href="https://www.usgs.gov/" target="_blank" rel="nofollow">USGS</a> ha registrado:</p>
 <ul>
     <li><?php echo $all;?> movimiento telúricos alrededor del mundo.</li>
-    <li><?php echo $cl;?> de estos movimientos, sobre una magnitud de 4, se han registrado en Chile.</li>
+    <li><?php echo $cl;?> de estos movimientos, sobre una magnitud de 3.9 grados Richter, se han registrado en Chile.</li>
     <li><?php echo $costacentral;?> de los <?php echo $cl?> se han concentrado en las cercanías de la costa de la quinta región.</li>
 </ul>
     <p>Dicho de otro modo, cerca de la costa de la quinta región se ha concentrado el <?php echo round(($costacentral*100/$all),2)?>% de los movimientos telúricos del mundo en el últimos mes.</p>
